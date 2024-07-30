@@ -21,8 +21,8 @@ function App() {
         <Routes>
           <Route path="/admin" element={<Admin />} />
           <Route path="/userlist" element={<UserList />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Dashboard />} />
         </Routes>
       )}   
     </div>
